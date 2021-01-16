@@ -3,9 +3,161 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="style_adv.css">
   <title>Advance Search</title>
 </head>
 <body>
-  <h1>Advance Search</h1>
+  <div class="wrapper">
+    <div id="header_top">
+      <div id="header" style="float: left;">
+        <img class = "logo" src="/image/google.png" title="logo_goo">
+      </div>
+      <div id="content">
+        <a href="index.html">Home</a>
+      </div>
+      <div id="footer">
+        <a href="image_search.html">Image</a>
+      </div>
+    </div>
+
+    <div class ="adv_s">
+      <h4>Advanced Search</h4>
+    </div>
+
+    <div class ="adv_main">
+      <div class="adv_search">
+        <form action="https://www.google.com/search"  >
+          <div class="adv_head">
+            <div class="adv_head_1">
+              <div class="adv_content">
+                <span>Find pages with...</span>
+              </div>
+            </div>
+            <div class="adv_head_2">
+              <span></span>
+            </div>
+            <div class="adv_head_3">
+              <div class="adv_content">
+                to do this in search box
+              </div>
+            </div>
+          </div>
+          <div class="adv_head">
+            <div class="adv_form">
+              <div class="adv_form_left">
+                <div class="adv_content">
+                  <label for="wds">all these words: </label>
+                </div>
+              </div>
+              <div class="adv_form_center">
+                <div class="form_input">
+                  <input class="jfk-textinput" value="" autofocus="autofocus" id="anywords" name="as_q" type="text" >
+                </div>
+              </div>
+              <div class="adv_form_right">
+                <div class="adv_content">
+                  Type the important words:
+                  <span class="adv_sub_content">tri-colour rat terrier</span>
+                </div>
+              </div>
+            </div>
+            <div class="adv_form">
+              <div class="adv_form_left">
+                <label for="ewds">this exact word or phrase :</label>
+              </div>
+              <div class="adv_form_center">
+                <div class="form_input">
+                  <input class="jfk-textinput" value="" autofocus="autofocus" id="exactwords" name="as_epq" type="text" >
+                </div>
+              </div>
+              <div class="adv_form_right">
+                <div class="adv_content">
+                  Put exact words in quote:
+                  <span class="adv_sub_content">"rat terrier"</span>
+                </div>
+              </div>
+            </div>
+            <div class="adv_form">
+              <div class="adv_form_left">
+                <label for="anywds">any of these words:</label>
+              </div>
+              <div class="adv_form_center">
+                <div class="form_input">
+                  <input class="jfk-textinput" value="" autofocus="autofocus" id="anywords" name="as_oq" type="text" >
+                </div>
+              </div>
+              <div class="adv_form_right">
+                <div class="adv_content">
+                  Type OR between all the words you want:
+                  <span class="adv_sub_content"> miniature OR standard</span>
+                </div>
+              </div>
+            </div>
+            <div class="adv_form">
+              <div class="adv_form_left">
+                <label for="nonewds">none of these words:</label>
+              </div>
+              <div class="adv_form_center">
+                <div class="form_input">
+                  <input class="jfk-textinput" value="" autofocus="autofocus" id="nonewords" name="as_eq" type="text" >
+                </div>
+              </div>
+              <div class="adv_form_right">
+                <div class="adv_content">
+                  Put a minus sign just before words that you don't want:
+                  <span class="adv_sub_content"> -rodent, -"Jack Russell"</span>
+                </div>
+              </div>
+            </div>
+            <div class="adv_form">
+              <div class="adv_form_left">
+                <label for="numwds">numbers ranging from:</label>
+              </div>
+              <div class="adv_form_center" style="position: relative">
+                <div style="display:table;width:100%">
+                  <div style="display:table-cell;padding-right:16px">
+                    <input class="jfk-textinput"  id="num" name="as_nlo" type="text" >
+                  </div>
+                  <div style="display:table-cell;width:40px;padding-right:6px;padding-left:6px;text-align:center;font-size:13px;color:#202124">
+                    to
+                  </div>
+                  <div style="display:table-cell;padding-right:16px">
+                    <input class="jfk-textinput"  name="as_nhi" type="text" >
+                  </div>
+                </div>
+              </div>
+              <div class="adv_form_right">
+                <div class="adv_content">
+                  Put two full stops between the numbers and add a unit of measurement:
+                  <span class="adv_sub_content"> 10..35 kg, £300..£500, 2010..2011</span>
+                </div>
+              </div>
+            </div>
+            <div class="adv_form">
+              <input class="searchbutton" type="submit" value="Advanced Search">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="border"></div>
+    </div>
+    <div class ="adv_footer">
+      <div class="adv_footer_1">
+        <div class="adv_footer_content">
+          Malaysia
+        </div>
+      </div>
+      <div class="adv_footer_2">
+        <div class="adv_footer_content">
+          <a href=#>Help</a>
+          <a href=#>Privacy</a>
+          <a href=#>Terms</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
 </body>
 </html>
