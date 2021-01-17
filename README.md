@@ -1,2 +1,3 @@
-# edXassignment
-This is repo for working assignments for all projects under edX
+CS50’s Web Programming with Python and JavaScript
+
+This repo serves as the working directory for CS50W projects
